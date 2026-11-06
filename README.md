@@ -1,4 +1,4 @@
-# Stremio TV Themes Mod & Remote Function (shell-ng) made by claude.
+# Stremio TV Themes Mod & Remote Function (shell-ng).
 
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/1ade250c-d640-4317-9a7a-2f3aae6f85a9" />
 ---

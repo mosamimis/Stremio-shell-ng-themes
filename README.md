@@ -94,7 +94,6 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 | Disney / Shahid / OSN+ Style | unfinished |
 | Apple TV Light Mode, Liquid Glass, Amazon Prime Style | beta: listed but not selectable, skipped by the theme switch |
 
-
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/cf38be9b-6bf0-4d4b-8f6a-ce2379c67b56" />
 ---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/0cb8bd0c-16fa-4dab-bed9-7afd3667c31d" />
@@ -133,7 +132,7 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - A click outside the player menus closes them
 - Late video starts outside the player are blocked, and the video engine is stopped when you leave the player
 
-### Apple TV Windows
+### Apple TV Windows App
 **Look and animation**
 - Apple sidebar: Home, Movies, TV Shows, Library (Last Watched, Watched, Loved & Liked), Full Screen, Add-ons and your account name, with search and suggestions
 - Hero slideshow with trailers that fill the hero, prev / next arrows, dots and a mute button (muted each session)
@@ -158,9 +157,7 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Stats, speed and cast icons moved to the end; the fullscreen icon is hidden in remote mode
 - Stremio's own ±10 bubble is replaced by the count on the round buttons
 ---
-<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/39c00ce9-e1cf-498b-aaec-a3afaf8945a4" />
----
-<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/80ce2f19-110e-4cfc-97bd-61621fd71c2a" />
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/b2e0c461-654b-4732-a24d-b1c459c140b2" />
 ---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/56095831-8c56-4dd6-afa4-47eac6c0395a" />
 ---
@@ -186,11 +183,16 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 ### Vision Glass
 - Glass sidebar with Continue Watching / Trending and a Latest list (the header stays fixed while the list scrolls)
 - Glass player menus and tabs without underlines
-
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/39c00ce9-e1cf-498b-aaec-a3afaf8945a4" />
+---
 ### YouTube Style
 - YouTube layout and player
 - Hover glow that takes its colour from each thumbnail, like real YouTube
 
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/80ce2f19-110e-4cfc-97bd-61621fd71c2a" />
 ---
 
 ## Files

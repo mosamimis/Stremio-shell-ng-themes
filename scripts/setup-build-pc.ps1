@@ -15,12 +15,12 @@ function Invoke-Native {
 
 try {
     if (-not $SkipPrerequisiteInstall) {
-        if (-not (Get-Command winget.exe -ErrorAction SilentlyContinue)) { throw 'winget is unavailable. Install Git, Rust (rustup), and Visual Studio 2022 Build Tools with the C++ workload, then rerun.' }
+        if (-not (Get-Command winget.exe -ErrorAction SilentlyContinue)) { throw 'winget is unavailable. Install Git, Rust (rustup), Visual Studio 2022 Build Tools with the C++ workload, and Inno Setup, then rerun.' }
         $packages = @(
-            @{ Id = 'Stremio.Stremio'; Name = 'Stremio' },
             @{ Id = 'Git.Git'; Name = 'Git' },
             @{ Id = 'Rustlang.Rustup'; Name = 'Rustup' },
-            @{ Id = 'Microsoft.VisualStudio.2022.BuildTools'; Name = 'Visual Studio 2022 Build Tools' }
+            @{ Id = 'Microsoft.VisualStudio.2022.BuildTools'; Name = 'Visual Studio 2022 Build Tools' },
+            @{ Id = 'JRSoftware.InnoSetup'; Name = 'Inno Setup' }
         )
         foreach ($package in $packages) {
             $listed = winget list --id $package.Id --exact --accept-source-agreements 2>$null | Out-String
@@ -33,18 +33,23 @@ try {
                 Invoke-Native -FilePath 'winget.exe' -Arguments $args
             }
         }
+        $innoPaths = @('C:\Program Files (x86)\Inno Setup 6\ISCC.exe','C:\Program Files\Inno Setup 6\ISCC.exe',(Join-Path $env:LOCALAPPDATA 'Programs\Inno Setup 6\ISCC.exe'))
+        if (-not (Get-Command ISCC.exe -ErrorAction SilentlyContinue) -and -not ($innoPaths | Where-Object { Test-Path -LiteralPath $_ -PathType Leaf })) {
+            Write-Host 'Inno Setup was listed by winget but its compiler is missing. Repairing the install...'
+            Invoke-Native -FilePath 'winget.exe' -Arguments @('install','--id','JRSoftware.InnoSetup','--exact','--force','--accept-package-agreements','--accept-source-agreements')
+        }
     }
     $env:Path = [Environment]::GetEnvironmentVariable('Path', 'Machine') + ';' + [Environment]::GetEnvironmentVariable('Path', 'User') + ';' + (Join-Path $HOME '.cargo\bin')
-    if (-not (Get-Command git.exe -ErrorAction SilentlyContinue)) { throw 'Git was not found on PATH. Close and reopen PowerShell after installation, then rerun.' }
-    if (-not (Get-Command cargo.exe -ErrorAction SilentlyContinue)) { throw 'Cargo was not found on PATH. Close and reopen PowerShell after installing Rust, then rerun.' }
+    foreach ($tool in @('git.exe','cargo.exe')) {
+        if (-not (Get-Command $tool -ErrorAction SilentlyContinue)) { throw "$tool was not found. Close and reopen PowerShell after installing the build tools, then rerun." }
+    }
     if (Get-Command rustup.exe -ErrorAction SilentlyContinue) { Invoke-Native -FilePath 'rustup.exe' -Arguments @('default', 'stable') }
 
     $updater = Join-Path $PSScriptRoot 'update-stremio.ps1'
-    if (-not (Test-Path -LiteralPath $updater -PathType Leaf)) { throw "Put setup-build-pc.ps1 and update-stremio.ps1 in the same folder." }
-    $args = @{ SourceDir = $SourceDir; InstallDir = $InstallDir }
-    if ($ThemeFile) { $args.ThemeFile = $ThemeFile }
-    & $updater @args
-    if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) { throw "The update script failed with exit code $LASTEXITCODE." }
+    if (-not (Test-Path -LiteralPath $updater -PathType Leaf)) { throw 'Keep setup-build-pc.ps1 and update-stremio.ps1 in the same folder.' }
+    $updateArgs = @{ SourceDir = $SourceDir; InstallDir = $InstallDir }
+    if ($ThemeFile) { $updateArgs.ThemeFile = $ThemeFile }
+    & $updater @updateArgs
 } catch {
     Write-Error ("Method 2 setup failed: " + $_.Exception.Message)
     exit 1

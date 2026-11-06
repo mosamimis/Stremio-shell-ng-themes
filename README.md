@@ -109,11 +109,17 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 ---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a1247983-dd6e-48a0-b9f7-c691b3ca90d7" />
 ---
-<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/7f60857b-471a-439c-9849-8e94fe978518" />
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/281d7465-a29c-4f30-bf69-3ad65e5b4278" />
 ---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/f0590feb-65e6-4eab-915f-ea862ba4e038" />
-
-
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/d8c1c61c-8f42-4c28-a367-60a5e36214b2" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/990d0fcf-6953-47e9-aa94-e33e36b68ab6" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/50457485-74d4-414b-ae73-0806694d2549" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/cda23b51-b34d-4264-9c54-771932339a58" />
 ---
 
 ## Features
@@ -151,6 +157,19 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Auto-hide after 3.5 s with no input
 - Stats, speed and cast icons moved to the end; the fullscreen icon is hidden in remote mode
 - Stremio's own ±10 bubble is replaced by the count on the round buttons
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/39c00ce9-e1cf-498b-aaec-a3afaf8945a4" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/80ce2f19-110e-4cfc-97bd-61621fd71c2a" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/56095831-8c56-4dd6-afa4-47eac6c0395a" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/135e0565-f804-4276-aaa3-bfd3d36482e1" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/e8f45cb9-b3df-47f0-b30e-311738a20cbb" />
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/04b282ae-f031-4290-8b67-927b968800d8" />
+
 
 ### Remote mode
 - Full arrow / OK / Back navigation on every page: sidebar, hero, rows, search, title page, seasons, episodes, related, trailers, links, library and settings
@@ -159,7 +178,11 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Subtitles opens on **OFF**. Delay / Size / Position: OK, then ← / →, then OK
 - Volume keys on the remote always reach Windows
 - Screen Keyboard for search; Back closes it
-
+---
+<img width="503" height="158" alt="image" src="https://github.com/user-attachments/assets/e502464a-c191-406c-9347-12b26b01c1d5" />
+--
+<img width="311" height="41" alt="image" src="https://github.com/user-attachments/assets/e6674509-0c96-48af-b028-a8562454b619" />
+--
 ### Vision Glass
 - Glass sidebar with Continue Watching / Trending and a Latest list (the header stays fixed while the list scrolls)
 - Glass player menus and tabs without underlines

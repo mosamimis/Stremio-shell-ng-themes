@@ -96,21 +96,21 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 
 
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/cf38be9b-6bf0-4d4b-8f6a-ce2379c67b56" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/0cb8bd0c-16fa-4dab-bed9-7afd3667c31d" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/8e00dfd6-5816-4c2e-ae40-01053c0f9f7d" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/f2d9224f-281e-4384-a860-9f338af3bb7d" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/463c965d-0681-4f86-958e-35869883a72c" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/7cfa80ce-4870-4880-bca3-d3a1989ecc23" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a1247983-dd6e-48a0-b9f7-c691b3ca90d7" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/7f60857b-471a-439c-9849-8e94fe978518" />
-
+---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/f0590feb-65e6-4eab-915f-ea862ba4e038" />
 
 

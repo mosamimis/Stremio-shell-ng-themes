@@ -25,8 +25,6 @@ You only need the ready-made `stremio-shell-ng.exe` from this repo's **Releases*
    - copy `stremio-shell-ng.exe` into `%LOCALAPPDATA%\Programs\Stremio\` and replace the old file
    - open Stremio
 
-The script keeps your original as `stremio-shell-ng.original.exe`. To undo the mod, rename it back.
-
 ### Method 2: Edit your own (build from source)
 
 Use this if you want to change `themes.js` yourself.

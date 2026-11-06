@@ -211,13 +211,9 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 
 You can use any of these kind of USB remote, the App recognize the keyboard input from the keyboard, You can remap them in the setting.
 
----
 
-<img width="260" height="359" alt="image" src="https://github.com/user-attachments/assets/a3afb372-fe58-4de6-a6d1-a19c5bf036c2" />
 
----
-
-<img width="407" height="375" alt="image" src="https://github.com/user-attachments/assets/d02c5c8e-39c1-4973-8804-5520bd0d5015" />
+<img width="260" height="359" alt="image" src="https://github.com/user-attachments/assets/a3afb372-fe58-4de6-a6d1-a19c5bf036c2" /> <img width="407" height="375" alt="image" src="https://github.com/user-attachments/assets/d02c5c8e-39c1-4973-8804-5520bd0d5015" />
 
 ---
 

@@ -53,9 +53,6 @@ The script installs the build tools, downloads the official Stremio shell source
    ```powershell
    powershell -ExecutionPolicy Bypass -File .\scripts\update-stremio.ps1
    ```
-```
-
----
 
 ## Keys
 

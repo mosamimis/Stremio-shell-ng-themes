@@ -21,12 +21,7 @@ You only need the ready-made `stremio-shell-ng.exe` from this repo's **Releases*
    winget install -e --id Stremio.Stremio
    ```
 2. Download `stremio-shell-ng.exe` from **Releases** into your **Downloads** folder.
-3. Run the installer script from the `scripts` folder:
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File .\scripts\install-exe.ps1
-   ```
-   Or do it by hand:
-   - close Stremio
+3. close Stremio
    - copy `stremio-shell-ng.exe` into `%LOCALAPPDATA%\Programs\Stremio\` and replace the old file
    - open Stremio
 

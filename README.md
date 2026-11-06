@@ -293,6 +293,6 @@ You can use any of these kind of USB remote, the App recognize the keyboard inpu
 
 ## Notes
 - Windows only (Stremio 5 / shell-ng).
-- Video and audio are played by Stremio's own engine (mpv), so installing Stremio first is required for both methods.
-- A theme can be fully undone by putting the original `stremio-shell-ng.exe` back.
-- Send me your bug report IG: Its.Rebel95 
+- Video and audio use Stremio’s own engine (mpv). Method 1 needs Stremio installed first; Method 2 builds and installs the app from source.
+- To undo the theme, restore the original `stremio-shell-ng.exe`.
+- Bug reports: IG `Its.Rebel95`

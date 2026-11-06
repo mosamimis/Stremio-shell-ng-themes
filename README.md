@@ -47,7 +47,7 @@ Use this if you want to change `themes.js` yourself.
 
 **First time on a new PC (one command)**
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\setup-build-pc.ps1 -Repo https://github.com/YOUR-USER/stremio-shell-ng.git
+powershell -ExecutionPolicy Bypass -File .\scripts\setup-build-pc.ps1 -Repo https://github.com/mosamimis/Stremio-shell-ng-themes.git
 ```
 This installs the four apps, clones the source to `%USERPROFILE%\stremio-shell-ng`, copies `update-stremio.ps1` to your home folder, and builds once.
 

@@ -1,6 +1,7 @@
 # Stremio TV Themes Mod & Remote Function (shell-ng).
 
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/1ade250c-d640-4317-9a7a-2f3aae6f85a9" />
+
 ---
 
 A theme pack for **Stremio 5 on Windows** (stremio-shell-ng). It restyles the whole app as **Apple TV Windows**, Netflix, YouTube, Vision Glass and more, and adds remote-control navigation, an on-screen keyboard, trailers, an Apple-style player and lots of small fixes.
@@ -100,39 +101,51 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/cf38be9b-6bf0-4d4b-8f6a-ce2379c67b56" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/0cb8bd0c-16fa-4dab-bed9-7afd3667c31d" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/8e00dfd6-5816-4c2e-ae40-01053c0f9f7d" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/f2d9224f-281e-4384-a860-9f338af3bb7d" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/463c965d-0681-4f86-958e-35869883a72c" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/7cfa80ce-4870-4880-bca3-d3a1989ecc23" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a1247983-dd6e-48a0-b9f7-c691b3ca90d7" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/281d7465-a29c-4f30-bf69-3ad65e5b4278" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/f0590feb-65e6-4eab-915f-ea862ba4e038" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/d8c1c61c-8f42-4c28-a367-60a5e36214b2" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/990d0fcf-6953-47e9-aa94-e33e36b68ab6" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/50457485-74d4-414b-ae73-0806694d2549" />
 
 ---
+
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/cda23b51-b34d-4264-9c54-771932339a58" />
 
 ---
@@ -195,6 +208,16 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Subtitles opens on **OFF**. Delay / Size / Position: OK, then ← / →, then OK
 - Volume keys on the remote always reach Windows
 - Screen Keyboard for search; Back closes it
+
+You can use any of these kind of USB remote, the App recognize the keyboard input from the keyboard, You can remap them in the setting.
+
+---
+
+<img width="260" height="359" alt="image" src="https://github.com/user-attachments/assets/a3afb372-fe58-4de6-a6d1-a19c5bf036c2" />
+
+---
+
+<img width="407" height="375" alt="image" src="https://github.com/user-attachments/assets/d02c5c8e-39c1-4973-8804-5520bd0d5015" />
 
 ---
 

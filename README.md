@@ -82,7 +82,7 @@ The script installs the build tools, downloads the official Stremio shell source
 | Disney / Shahid / OSN+ Style | unfinished |
 | Apple TV Light Mode, Liquid Glass, Amazon Prime Style | beta: listed but not selectable, skipped by the theme switch |
 
-<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/cf38be9b-6bf0-4d4b-8f6a-ce2379c67b56" />
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/94730825-2ecd-4b81-883c-8162b247a30d" />
 
 ---
 

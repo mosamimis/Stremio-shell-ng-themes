@@ -287,7 +287,7 @@ You can use any of these kind of USB remote, the App recognize the keyboard inpu
 | File | What it is |
 |---|---|
 | `themes.js` | the whole mod; goes to `src/stremio_app/themes.js` in stremio-shell-ng |
-| `scripts/install-exe.ps1` | Method 1: puts the ready exe into Stremio |
+| Method 1: puts the ready exe into Stremio |
 | `scripts/setup-build-pc.ps1` | Method 2: first-time tool install, clone and build |
 | `scripts/update-stremio.ps1` | Method 2: rebuild and restart after each edit |
 

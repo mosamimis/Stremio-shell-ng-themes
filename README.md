@@ -1,7 +1,9 @@
 # Stremio TV Themes Mod & Remote Function (shell-ng) made by claude.
 
 A theme pack for **Stremio 5 on Windows** (stremio-shell-ng). It restyles the whole app as **Apple TV Windows**, Netflix, YouTube, Vision Glass and more, and adds remote-control navigation, an on-screen keyboard, trailers, an Apple-style player and lots of small fixes.
-![Uploading image.png…]()
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/0cb8bd0c-16fa-4dab-bed9-7afd3667c31d" />
+
 
 
 `themes.js` is built into `stremio-shell-ng.exe` (through `webview.rs`), so the mod is installed by replacing that one file.

@@ -25,43 +25,34 @@ You only need the ready-made `stremio-shell-ng.exe` from this repo's **Releases*
    - copy `stremio-shell-ng.exe` into `%LOCALAPPDATA%\Programs\Stremio\` and replace the old file
    - open Stremio
 
-### Method 2: Edit your own (build from source)
+### Method 2: Build from source
 
-Use this if you want to change `themes.js` yourself.
+Use this method if you want to change `themes.js` yourself.
 
 **Apps needed**
 
 | App | winget id | Why |
 |---|---|---|
-| Stremio | `Stremio.Stremio` | the app itself (video engine and files) |
 | Git | `Git.Git` | to download the source |
-| Rust (rustup) | `Rustlang.Rustup` | to build the exe |
-| VS 2022 Build Tools (C++) | `Microsoft.VisualStudio.2022.BuildTools` | the C++ linker Rust needs on Windows |
+| Rust (rustup) | `Rustlang.Rustup` | to build the app |
+| VS 2022 Build Tools (C++) | `Microsoft.VisualStudio.2022.BuildTools` | the C++ linker Rust needs |
+| Inno Setup | `JRSoftware.InnoSetup` | to create the app installer |
 
-**First time on a new PC (one command)**
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\setup-build-pc.ps1 -Repo https://github.com/mosamimis/Stremio-shell-ng-themes.git
-```
-This installs the four apps, clones the source to `%USERPROFILE%\stremio-shell-ng`, copies `update-stremio.ps1` to your home folder, and builds once.
-
-If the build step fails right after installing the tools, close PowerShell, open it again and run the same command again.
-
-**Every time you change themes.js**
-1. Save your edited `themes.js` into **Downloads**.
-2. Run:
+**First time**
+1. Save `themes.js` in your **Downloads** folder.
+2. From the repository folder, run:
    ```powershell
-   powershell -ExecutionPolicy Bypass -File "$HOME\update-stremio.ps1"
+   powershell -ExecutionPolicy Bypass -File .\scripts\setup-build-pc.ps1
    ```
-   It copies the file into `src\stremio_app\themes.js`, runs `cargo build --release`, closes Stremio, puts the new exe in place, and starts it again.
 
-**Manual commands (same thing)**
-```powershell
-Copy-Item "$HOME\Downloads\themes.js" "$HOME\stremio-shell-ng\src\stremio_app\themes.js" -Force
-cd "$HOME\stremio-shell-ng"
-cargo build --release
-Get-Process stremio* | Stop-Process -Force
-Copy-Item ".\target\release\stremio-shell-ng.exe" "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe" -Force
-Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
+The script installs the build tools, downloads the official Stremio shell source, adds your theme, builds the app, and installs it.
+
+**After changing `themes.js`**
+1. Save the updated file in **Downloads**.
+2. From the repository folder, run:
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\scripts\update-stremio.ps1
+   ```
 ```
 
 ---

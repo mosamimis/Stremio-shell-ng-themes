@@ -1,5 +1,8 @@
 # Stremio TV Themes Mod & Remote Function (shell-ng) made by claude.
 
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/1ade250c-d640-4317-9a7a-2f3aae6f85a9" />
+---
+
 A theme pack for **Stremio 5 on Windows** (stremio-shell-ng). It restyles the whole app as **Apple TV Windows**, Netflix, YouTube, Vision Glass and more, and adds remote-control navigation, an on-screen keyboard, trailers, an Apple-style player and lots of small fixes.
 
 `themes.js` is built into `stremio-shell-ng.exe` (through `webview.rs`), so the mod is installed by replacing that one file.
@@ -160,6 +163,10 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Library: wide cards, a blue Liked & Loved chip, flat menus
 - Smooth open and close animations on panels, menus and rows
 
+---
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/b2e0c461-654b-4732-a24d-b1c459c140b2" />
+---
+
 **Player**
 - Apple overlay: title, round −10 / play-pause / +10 buttons (the mouse seeks straight on the video engine, so it's instant), and Info and Continue Watching pills with sliding panels
 - Volume slider and speaker at the top left under the title. With the remote: OK starts changing it, ← / → change it, OK ends it
@@ -169,14 +176,18 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Auto-hide after 3.5 s with no input
 - Stats, speed and cast icons moved to the end; the fullscreen icon is hidden in remote mode
 - Stremio's own ±10 bubble is replaced by the count on the round buttons
----
-<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/b2e0c461-654b-4732-a24d-b1c459c140b2" />
+
 ---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/56095831-8c56-4dd6-afa4-47eac6c0395a" />
+
 ---
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/135e0565-f804-4276-aaa3-bfd3d36482e1" />
+
 ---
 
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/36d8df36-7da9-48af-a544-9222a74db5fd" />
+
+---
 ### Remote mode
 - Full arrow / OK / Back navigation on every page: sidebar, hero, rows, search, title page, seasons, episodes, related, trailers, links, library and settings
 - It remembers your position in each row and returns to it
@@ -184,14 +195,22 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Subtitles opens on **OFF**. Delay / Size / Position: OK, then ← / →, then OK
 - Volume keys on the remote always reach Windows
 - Screen Keyboard for search; Back closes it
+
 ---
 
 <img width="503" height="158" alt="image" src="https://github.com/user-attachments/assets/e502464a-c191-406c-9347-12b26b01c1d5" />
 
---
+---
+
 <img width="311" height="41" alt="image" src="https://github.com/user-attachments/assets/e6674509-0c96-48af-b028-a8562454b619" />
 
---
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a9cc7e3c-84bb-4d26-9ea9-7693f9f1db0a" />
+
+---
+
+
 ### Vision Glass
 - Glass sidebar with Continue Watching / Trending and a Latest list (the header stays fixed while the list scrolls)
 - Glass player menus and tabs without underlines
@@ -214,7 +233,52 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/80ce2f19-110e-4cfc-97bd-61621fd71c2a" />
 
 ---
+### Netflix Style
+- Netflix colours, fonts and red accents
+- Big hero with trailer, Top 10 rows with big numbers
+- Netflix-style player with the episodes card stack
+- Remote mode support
 
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/6a541ead-1b9d-49a5-9129-a88eb6950685" />
+
+---
+
+### Disney Style (unfinished)
+- Disney+ dark blue look and tabs on the title page
+- Still being worked on
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/ff0c8e37-0c31-4f89-a904-cbe1294b7933" />
+
+---
+
+### Shahid Style (unfinished)
+- Shahid look with green accents
+- Still being worked on
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/65f4379b-5427-4df5-9d7c-4f5e3709f57c" />
+
+---
+
+### OSN+ Style (unfinished)
+- OSN+ look
+- Still being worked on
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/9513aa97-0b41-4ff5-bc66-13f15ee120ed" />
+
+---
+
+### Beta (coming soon, not selectable yet)
+- **Apple TV Light Mode**: Apple TV in light colours
+- **Liquid Glass**: Apple TV with liquid glass effects
+- **Amazon Prime Style**: Prime Video look
 ## Files
 
 | File | What it is |
@@ -228,3 +292,4 @@ Start-Process "$env:LOCALAPPDATA\Programs\Stremio\stremio-shell-ng.exe"
 - Windows only (Stremio 5 / shell-ng).
 - Video and audio are played by Stremio's own engine (mpv), so installing Stremio first is required for both methods.
 - A theme can be fully undone by putting the original `stremio-shell-ng.exe` back.
+- Send me your bug report IG: Its.Rebel95 

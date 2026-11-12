@@ -1,4 +1,4 @@
-# Stremio TV Themes Mod & Remote Function (shell-ng).
+# Stremio TV Themes Mod & Remote Function (shell-ng). New Update.
 
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/1ade250c-d640-4317-9a7a-2f3aae6f85a9" />
 
@@ -9,6 +9,31 @@ A theme pack for **Stremio 5 on Windows** (stremio-shell-ng). It restyles the wh
 `themes.js` is built into `stremio-shell-ng.exe` (through `webview.rs`), so the mod is installed by replacing that one file.
 
 ---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/61a9711e-e249-43db-8216-12abd2a0a68c" />
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/60eae0b2-f165-4256-97f0-157d93b106a8" />
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/1d7d4b3d-cd59-4c2b-b8d0-4199a6e5450d" />
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/d45bba3a-1747-427c-9e8f-347182bf9a99" />
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/886dc021-727c-4ef8-86ec-99832ddd4ffe" />
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/7df30251-94c9-45e9-9dcc-8a16ea5a6d5b" />
+
+---
+
 
 ## Install
 
@@ -287,6 +312,110 @@ You can use any of these kind of USB remote, the App recognize the keyboard inpu
 | `stremio-shell-ng.exe` from Releases | Method 1: ready-made app |
 | `scripts/setup-build-pc.ps1` | Method 2: first-time setup and build |
 | `scripts/update-stremio.ps1` | Method 2: rebuild after changing the theme |
+
+
+---
+Popup Video Player 
+
+Floating video player for watching while browsing.
+Picture-in-picture playback support.
+Subtitle rendering inside the popup player.
+Playback synchronization when returning to the main player.
+Play and pause controls for popup playback.
+
+---
+### Added on the update 1.441
+
+### Amazon Prime X-Ray (All Themes)
+
+- Amazon Prime Video-inspired X-Ray feature available across all themes.
+- Displays cast information, actor details, and related content during playback.
+- Works independently of the selected theme.
+- Requires users to provide their own TMDB API key.
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/98f55db5-e00c-4b58-b908-2d4ebf89b6e4" />
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/650a0707-ab12-43a5-961e-999e9203356b" />
+
+---
+
+
+### Remote Control & Shortcuts 
+Custom remote button mapping and keyboard shortcuts.
+
+1. Menu + Right: Opens or navigates to the right-side menu.
+2. Menu + Up: Opens or navigates to the upper menu.
+3. Menu + Down: Opens or navigates to the lower menu.
+
+- Assign specific actions to remote buttons.
+- Improved Home, Back, Menu, and OK button handling.
+- Enhanced remote navigation across themes, menus, and video playback.
+- Remote-compatible on-screen keyboard.
+- Saved remote shortcut preferences.
+
+### Popup Video Player
+- Floating video player for watching while browsing.
+- Picture-in-picture playback support.
+- Subtitle rendering inside the popup player.
+- Playback synchronization when returning to the main player.
+- Play and pause controls for popup playback.
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/11e8dbfc-4b20-45df-bcee-dc1fda143dd0" />
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/ceb6d420-fb8f-4b9d-a82e-718015f7bdce" />
+
+### Share available subtitles between streams of the same episode.
+- Support for external subtitle files.
+- Improved subtitle selection and navigation.
+- Subtitle support in picture-in-picture mode.
+
+---
+
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/e14c2c8b-0d53-4164-b107-b2a7076af797" />
+
+---
+### Player Enhancements
+- Amazon Prime X-Ray integration.
+- Improved episode and season navigation.
+- Enhanced playback controls.
+- Automatic intro skipping using IntroDB.
+- Improved volume and seek controls.
+
+### Interface Improvements
+- Animated MIMIS startup screen.
+- New Amazon Prime Video interface features.
+- Improved Netflix, Apple TV, and Disney+ layouts.
+- Enhanced featured content and trailer previews.
+- Improved remote focus and selection animations.
+
+### Performance Improvements
+- Local image caching for posters, backgrounds, and thumbnails.
+- WebP image compression.
+- Theme-specific CSS optimization.
+- Reduced background processing during inactivity.
+- Improved scrolling performance.
+- Performance monitoring and optimization.
+
+### Settings & Customization
+- Expanded remote shortcut settings.
+- Additional player preferences.
+- Improved theme selection interface.   
+- Backup and restore functionality.
+- Custom TMDB API key configuration.
+
+### Compatibility
+- Windows, Stremio 5, shell-ng.
+- Some features depend on the selected theme.
+- Remote shortcuts depend on the buttons supported by your remote.
+- Beta features may require further testing.
 
 ## Notes
 - Windows only (Stremio 5 / shell-ng).
